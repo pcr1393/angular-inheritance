@@ -10,7 +10,7 @@ export class AppComponent {
   inheritForm: FormGroup;
   constructor(private fb: FormBuilder) {}
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
     this.inheritForm = this.fb.group({});
   }
 }
